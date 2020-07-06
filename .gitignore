@@ -4,10 +4,13 @@ c/.deps/qrcodegen.d
 c/.deps/timestamp
 c/libqrcodegen.a
 c/qrcodegen-demo
+c/qrcodegen-demo.exe
 c/qrcodegen-demo.o
 c/qrcodegen-test
 c/qrcodegen-test.dSYM/Contents/Info.plist
 c/qrcodegen-test.dSYM/Contents/Resources/DWARF/qrcodegen-test
+c/qrcodegen-test.exe
 c/qrcodegen-worker
+c/qrcodegen-worker.exe
 c/qrcodegen-worker.o
 c/qrcodegen.o
