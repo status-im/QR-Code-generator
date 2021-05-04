@@ -69,7 +69,8 @@ clean:
 
 # The library
 $(LIBFILE): $(LIBOBJ)
-	$(AR) -crs $@ -- $^
+	$(AR) -crs $@ -- $^ && \
+	ranlib -c $@
 
 # Object files
 %.o: %.cpp .deps/timestamp
