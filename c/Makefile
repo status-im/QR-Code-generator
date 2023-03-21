@@ -28,13 +28,6 @@ else
  detected_OS := $(strip $(shell uname))
 endif
 
-ifeq ($(detected_OS),Darwin)
-  ifeq ("$(shell sysctl -nq hw.optional.arm64)","1")
-    # Building on M1 is still not supported, so in the meantime we crosscompile to amd64
-    CFLAGS += -target x86_64-apple-macos10.12
-  endif
-endif
-
 # ---- Configuration options ----
 
 # External/implicit variables:
