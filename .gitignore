@@ -14,3 +14,4 @@ c/qrcodegen-worker
 c/qrcodegen-worker.exe
 c/qrcodegen-worker.o
 c/qrcodegen.o
+java/target/
